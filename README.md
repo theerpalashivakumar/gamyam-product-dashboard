@@ -1,45 +1,16 @@
-# Gamyam Product Management Assignment
+# React + Vite
 
-This project is a simple product management interface built as part of the Gamyam interview assignment.  
-It demonstrates product listing, search with debounce, add/edit functionality, and pagination — all implemented using React.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### Product List
-- Display products in **List view (table)** and **Card view (grid)**.
-- Option to toggle between both views.
+## React Compiler
 
-### Search (with Debounce)
-- Real-time search by product name.
-- Debounce delay set to **500ms** to optimize performance.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### Add & Edit Product
-- Form fields:
-  - **Name** (required)
-  - **Price** (number, required)
-  - **Category** (required)
-  - **Stock** (number, optional)
-  - **Description** (optional)
-- Includes basic form validation with inline error messages.
-- Data stored and updated in **local state (no backend)**.
+## Expanding the ESLint configuration
 
-###  Pagination
-- Displays products with pagination for easy navigation.
-
----
-
-## 🛠️ Tech Stack
-- **React.js**
-- **JavaScript (ES6+)**
-- **React Hooks (useState, useEffect)**
-- **Custom Hooks** (for Debounce)
-
----
-
-## ⚙️ Installation & Setup
-
-1. Clone the repository  
-   ```bash
-  
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
